@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Brad Lindsay</Authors>
+    <Company />
+    <Description>This is a simple console based progress bar which allows for long running tasks to be tracked. The original codebase was created by DaneilSWolf https://github.com/DanielSWolf and extended by Brad Lindsay. https://github.com/impr0t</Description>
+    <Copyright>The MIT License</Copyright>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageReleaseNotes>This is the initial implementation of Sandbar. In large, some basic configuration settings were created on top of the original codebase. The project is built ontop of .NET Standard and "should" be cross platform compatible.</PackageReleaseNotes>
+    <PackageTags>Progress Bar, Console</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+
+</Project>
