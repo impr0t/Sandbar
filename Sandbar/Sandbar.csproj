@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Brad Lindsay</Authors>
     <Company />
-    <Description>This is a simple console based progress bar which allows for long running tasks to be tracked. The original codebase was created by DaneilSWolf https://github.com/DanielSWolf and extended by Brad Lindsay. https://github.com/impr0t</Description>
+    <Description>This is a simple console based progress bar which allows for long running tasks to be tracked. The original codebase was created by DanielSWolf https://github.com/DanielSWolf and extended by Brad Lindsay. https://github.com/impr0t</Description>
     <Copyright>The MIT License</Copyright>
     <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -15,6 +15,7 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <SignAssembly>false</SignAssembly>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>

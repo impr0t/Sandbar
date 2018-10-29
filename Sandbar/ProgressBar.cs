@@ -51,6 +51,25 @@ namespace Sandbar
 
         #region Methods
 
+        public static void Main(string[] args)
+        {
+            var opts = new
+                ProgressBarOptions(ProgressBarWidth.Medium, AnimationInterval.Short, AnimationPattern.Spinner)
+                {
+                    RunningColour = ConsoleColor.Yellow, FinishedColour = ConsoleColor.Green, FinishedMessage = "Finished!"
+                };
+
+            Console.Write("Performing Task: ");
+
+            using (var progressBar = new ProgressBar(opts))
+            {
+                for (int i = 0; i < 100; i++)
+                {
+                    progressBar.Report(i, 100);
+                }
+            }
+        }
+
         public void Dispose()
         {
             lock (_timer)
