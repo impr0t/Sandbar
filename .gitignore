@@ -1,4 +1,8 @@
 /Sandbar/obj/*
 /Sandbar/bin/*
+/Sandbar.Tests/obj/*
+/Sandbar.Tests/bin/*
+/Sandbox/obj/*
+/Sandbox/bin/*
 .vs/*
 .vs/

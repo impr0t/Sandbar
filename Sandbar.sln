@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbar", "Sandbar\Sandbar.csproj", "{C6A98B60-F6F2-43C3-AEB1-F96C1A0DE0C7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbar.Tests", "Sandbar.Tests\Sandbar.Tests.csproj", "{DF4266BB-9280-4F10-938C-814AFF8DFF57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{14CDF4E4-5757-421B-98FE-D365252E870D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C6A98B60-F6F2-43C3-AEB1-F96C1A0DE0C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6A98B60-F6F2-43C3-AEB1-F96C1A0DE0C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6A98B60-F6F2-43C3-AEB1-F96C1A0DE0C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4266BB-9280-4F10-938C-814AFF8DFF57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4266BB-9280-4F10-938C-814AFF8DFF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4266BB-9280-4F10-938C-814AFF8DFF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4266BB-9280-4F10-938C-814AFF8DFF57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CDF4E4-5757-421B-98FE-D365252E870D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CDF4E4-5757-421B-98FE-D365252E870D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CDF4E4-5757-421B-98FE-D365252E870D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CDF4E4-5757-421B-98FE-D365252E870D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

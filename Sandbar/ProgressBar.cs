@@ -29,7 +29,7 @@ namespace Sandbar
         public ProgressBar(string taskMessage)
         {
             _originalColor = Console.ForegroundColor;
-            Console.Write(taskMessage);
+            Console.Write($"{taskMessage}: ");
 
             _timer = new Timer(TimerHandler);
 
