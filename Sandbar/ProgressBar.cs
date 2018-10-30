@@ -26,9 +26,11 @@ namespace Sandbar
 
         private bool _disposed;
 
-        public ProgressBar()
+        public ProgressBar(string taskMessage)
         {
             _originalColor = Console.ForegroundColor;
+            Console.Write(taskMessage);
+
             _timer = new Timer(TimerHandler);
 
             if (_options == null)
@@ -42,7 +44,7 @@ namespace Sandbar
             }
         }
 
-        public ProgressBar(ProgressBarOptions options) : this()
+        public ProgressBar(string taskMessage, ProgressBarOptions options) : this(taskMessage)
         {
             _options = options;
 
@@ -50,25 +52,6 @@ namespace Sandbar
         }
 
         #region Methods
-
-        public static void Main(string[] args)
-        {
-            var opts = new
-                ProgressBarOptions(ProgressBarWidth.Medium, AnimationInterval.Short, AnimationPattern.Spinner)
-                {
-                    RunningColour = ConsoleColor.Yellow, FinishedColour = ConsoleColor.Green, FinishedMessage = "Finished!"
-                };
-
-            Console.Write("Performing Task: ");
-
-            using (var progressBar = new ProgressBar(opts))
-            {
-                for (int i = 0; i < 100; i++)
-                {
-                    progressBar.Report(i, 100);
-                }
-            }
-        }
 
         public void Dispose()
         {
