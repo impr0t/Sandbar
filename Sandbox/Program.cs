@@ -14,8 +14,9 @@ namespace Sandbox
             ProgressBarOptions opts = new ProgressBarOptions();
             opts.RunningColour = ConsoleColor.Yellow;
             opts.FinishedColour = ConsoleColor.Green;
-            opts.Pattern = AnimationPattern.Spinner;
+            opts.Pattern = AnimationPattern.Balloon;
             opts.Interval = AnimationInterval.Short;
+            
 
             using (var p = new ProgressBar("Doing Something", opts))
             {
